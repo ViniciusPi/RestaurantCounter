@@ -26,6 +26,7 @@ class _HomeState extends State<Home> {
         _infoText = 'Ha vagas';
       } else {
         _infoText = 'Lotado';
+        _people = 10;
       }
     });
   }
